@@ -11,15 +11,17 @@
 
 <h2 id="technologies">💻 Tecnologias utilizadas</h2>
 
-- Angular versão 17
+- Angular - v.17
+- Angular Material UI - v.17
+- Docker - v.24
+- Nginx - last version
 
 <h2 id="started">🚀 Instalação</h2>
 
-<h3>Pré requisitos</h3>
+<h3>Pré-requisitos</h3>
 
 - [Git](https://github.com)
-- [NodeJS](https://nodejs.org/)
-- [Angular](https://angular.io/)
+- [Docker](https://www.docker.com/)
 
 <h3>Clonando o projeto</h3>
 
@@ -31,6 +33,7 @@ git clone https://github.com/renatomdev/consulta-tabela-fipe.git
 
 ```bash
 cd consulta-tabela-fipe
-ng serve
+docker build -t fipe .
+docker run-p 8080:80 fipe
 ```
 
