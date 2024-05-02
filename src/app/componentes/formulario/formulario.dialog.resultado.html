@@ -1,0 +1,16 @@
+<h2 mat-dialog-title class="cabecalho">Tabela FIPE </h2>
+<mat-divider class="dividerLine"></mat-divider>
+<mat-dialog-content lass="mat-typography">
+  <p><b>Codigo: </b></p><p> {{data.CodigoFipe}}</p>
+  <p><b>Marca: </b></p><p>{{data.Marca}}</p>
+  <p><b>Modelo: </b></p><p>{{data.Modelo}} - {{data.Combustivel}} </p>
+  <p><b>Ano: </b></p><p>{{data.AnoModelo}}</p>
+  <p><b>Valor:</b></p><p>{{data.Valor}}</p>
+  <p class="legenda"> * Mês referência: {{data.MesReferencia}}</p>
+</mat-dialog-content>
+<mat-divider></mat-divider>
+<mat-dialog-actions class="acoes" align=end>
+  <button mat-button mat-dialog-close>Fechar</button>
+</mat-dialog-actions>
+
+
