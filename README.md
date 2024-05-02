@@ -1,12 +1,16 @@
 <h1 style="font-weight: bold;">Consulta Tabela FIPE </h1>
 
 <p align="justify">
-    A Tabela Fipe expressa preços médios para pagamento à vista, praticados na revenda de veículos para o consumidor final, pessoa física, no mercado nacional, servindo apenas como um parâmetro para negociações ou avaliações. Esse aplicativo é uma interface web que consume a api https://github.com/deividfortuna/fipe que retorna as informações da tabela.
+    A Tabela Fipe expressa preços médios para pagamento à vista, praticados na revenda de veículos para o consumidor final, pessoa física, no mercado nacional, servindo apenas como um parâmetro para negociações ou avaliações. </br> </br> Esse aplicativo disponibiliza um formulário web que pesquisa as informações da tabela, consumindo a api desenvolvida por Deivid Fortuna em https://github.com/deividfortuna/fipe que retorna as informações da tabela.
 </p>
 
 <p>
  <a href="#technologies">• Tecnologias</a> </br>  
  <a href="#started">• Instalação</a>  
+</p>
+
+<p>
+ <img src="form.png"> </br>  
 </p>
 
 <h2 id="technologies">💻 Tecnologias utilizadas</h2>
